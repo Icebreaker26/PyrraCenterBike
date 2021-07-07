@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<title> 
+<title>
     Pyrra Center Bike
 </title>
 <link href="styles.css" rel="stylesheet" type="text/css">
@@ -11,26 +11,74 @@
 
 <body>
 
-    <img src="banner.png" width=100%; style="box-shadow: -1px -1px 4px 4px teal;" > 
 
-    <div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
-        
-        <a href="#vermas" class="btn btn-danger" style="box-shadow: 4px 4px teal;">Ver más</a>
+  <nav id="navbar-example2" class="navbar navbar-dark bg-dark" style="box-shadow: -1px -1px 4px 4px teal;">
+    <a class="navbar-brand" href="#">Pyrra Center Bike</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#about">Sobre Nosotros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Contacto">Contacto</a>
+      </li>
+<!--      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+          -->
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+</div>
+
+
+    <img src="banner.png" width=100%; style="box-shadow: -1px -1px 4px 4px teal;" >
+
+   <div id="vermas"style="text-align: center; margin-top: 100px; margin-bottom: 15%;">
+        <a href="#about" class="btn btn-danger" style="width: 70%;box-shadow: -4px -4px teal;align: center;">Ver más</a>
       </div>
-    
-<div id="vermas"style="text-align: center;">
-<img src="padre.jpg" style="width: 40%; box-shadow: -1px -1px 4px 4px teal; ">
+
+
+<div id="about"style="text-align: center; margin-bottom:50px;"> </div>
+
+<div style="width: 100%;">
+
+<h1 id="titulo">Sobre Nosotros</h1>
 
 </div>
-<div style="width: 100%; height: 3000px;"></div>
 
-   
+
+
+
+<div id="Contacto" style="width: 100%;">
+
+<h1 style="font-family: Verdana,Geneva,sans-serif;text-align: center;"> Contacto </h1>
+
+</div>
+
+
+
 
       <footer id="footer">
-         la parte de abajo
-      </footer>
 
-    
+        <h2 id="pie"> </br>Pyrra Center Bike</h2>
+
+       </footer>
+
+
+
+
+
+
+
+
+
+
 <script src="main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

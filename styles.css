@@ -1,9 +1,7 @@
 body{
 
 /*Fondo*/
-background: #56CCF2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: black;  /* fallback for old browsers */
 
 
 }
@@ -68,7 +66,7 @@ text-align: center;
   /*Foto en paralaje*/
   background:url("padre.jpg"); /* Nuestra imagen de fondo */
 	/*background-repeat:no-repeat; /* Indicamos que no se repetira */
-	background-size:100%; /* Encajamos la imagen al 100% del ancho */
+	background-size:cover; /* Encajamos la imagen al 100% del ancho */
 	/*background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
 
   width: 360px;

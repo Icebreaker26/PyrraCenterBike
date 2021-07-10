@@ -68,9 +68,8 @@ text-align: center;
 	/*background-repeat:no-repeat; /* Indicamos que no se repetira */
 	background-size:100%; /* Encajamos la imagen al 100% del ancho */
 	/*background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
-align: center;
-text-align: center;
-  width: 360px;
+
+  width: 100%;
   height:340px;
 }
 }

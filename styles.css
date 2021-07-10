@@ -9,11 +9,11 @@ background: linear-gradient(to top, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Fir
 }
 
 #vermas{
-  
+
 
   /*Alineacion del div*/
   margin: auto;
-  margin-top: 3%;
+  margin-top:;
   margin-bottom: 3%;
   vertical-align: center;
   text-align: center;
@@ -22,17 +22,6 @@ background: linear-gradient(to top, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Fir
 
   height: 200px;
   width: 70%;
-   
-
-  /*Sombra y forma*/
-  border-radius: 74px;
-  background: #4310f9;
-  box-shadow:  50px 50px 100px #1b0664,
-               -50px -50px 100px #6b1aff;
-
-   
-     
-   
 
 }
 
@@ -40,12 +29,26 @@ background: linear-gradient(to top, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Fir
 
   /*Sombra y margenes*/
   margin: auto;
-  
+vertical-align: middle;
   width: 70%;
   box-shadow: -4px -4px teal;
 
 
 }
+
+#about{
+
+
+  /*Foto en paralaje*/
+  background:url("padre.jpg"); /* Nuestra imagen de fondo */
+	background-repeat:no-repeat; /* Indicamos que no se repetira */
+	background-size:100%; /* Encajamos la imagen al 100% del ancho */
+	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+  background-position:auto;
+  width: 100%;
+  height: 700px;
+}
+
 
 #titulo{
 
@@ -55,20 +58,8 @@ background: linear-gradient(to top, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Fir
   text-align: center;
   color: white;
   text-shadow: 4px 4px 4px teal;
-
 }
-#about{
-  
 
-  /*Foto en paralaje*/
-  background:url("padre.jpg"); /* Nuestra imagen de fondo */
-	background-repeat:no-repeat; /* Indicamos que no se repetira */
-	background-size:100%; /* Encajamos la imagen al 100% del ancho */
-	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
-  background-position: center;
-  width: 100%;
-  height: 700px;
-}
 
 #footer{
 

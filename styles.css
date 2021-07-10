@@ -1,15 +1,55 @@
 body{
 
-
-    background: #56CCF2;  /* fallback for old browsers */
+/*Fondo*/
+background: #56CCF2;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to top, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to top, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
 }
 
+#vermas{
+  
+
+  /*Alineacion del div*/
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  vertical-align: center;
+  text-align: center;
+
+  /*Tamaño*/
+
+  height: 200px;
+  width: 70%;
+   
+
+  /*Sombra y forma*/
+  border-radius: 74px;
+  background: #4310f9;
+  box-shadow:  50px 50px 100px #1b0664,
+               -50px -50px 100px #6b1aff;
+
+   
+     
+   
+
+}
+
+#botonvermas{
+
+  /*Sombra y margenes*/
+  margin: auto;
+  
+  width: 70%;
+  box-shadow: -4px -4px teal;
+
+
+}
+
 #titulo{
 
+    /*Formato del titulo*/
   font-family:  Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif;
   font-size:90px;
   text-align: center;
@@ -18,12 +58,16 @@ background: linear-gradient(to top, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Fir
 
 }
 #about{
+  
+
+  /*Foto en paralaje*/
   background:url("padre.jpg"); /* Nuestra imagen de fondo */
 	background-repeat:no-repeat; /* Indicamos que no se repetira */
-	background-size:cover; /* Encajamos la imagen al 100% del ancho */
+	background-size:100%; /* Encajamos la imagen al 100% del ancho */
 	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+  background-position: center;
   width: 100%;
-  height: 1000px;
+  height: 700px;
 }
 
 #footer{
@@ -40,4 +84,8 @@ color: white;
 text-align: center;
  vertical-align: middle;
 
+}
+
+.content-box {
+  column-count: 2;
 }

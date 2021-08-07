@@ -78,7 +78,7 @@ text-align: center;
 
 
 background: url("fondo pag.png");
-bottom-fixed;
+bottom-fixed:true;
 width:100%;
 height:200px;
 background-color:black;

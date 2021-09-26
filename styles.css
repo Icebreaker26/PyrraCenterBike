@@ -351,7 +351,7 @@ margin: 0 auto;
     background:url("images/Dream team blur.jpg");
     /*Foto en paralaje*/
     background-repeat:no-repeat; /* Indicamos que no se repetira */
-    background-size:100%; /* Encajamos la imagen al 100% del ancho */
+    background-size:cover; /* Encajamos la imagen al 100% del ancho */
     background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
     background-position:auto;
     width: 100%;

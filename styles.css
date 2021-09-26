@@ -34,8 +34,12 @@ text-align: center;
   width: 50%;
   box-shadow: -4px -4px teal;
 
+ 
 
 }
+
+
+
 
 /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+Computadores+-+-+-+-+-+-+-+-+-+--+-+*/
 /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+- paralaje -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
@@ -218,7 +222,12 @@ margin-top: 17%;
 text-shadow: 2px 2px 3px blue;
 
 }
+#cuerpoteam{
 
+background-image: url("pyrra team.png");
+background-size: cover;
+
+}
 @media(min-width:768px){
 #Team{
 
@@ -243,4 +252,22 @@ text-shadow: 2px 2px 3px blue;
   height: 730px;
 
 }
+}
+
+
+#teamIn{
+
+text-align:center;
+font-family: 'Architects Daughter', cursive;
+color: yellow;
+padding-bottom: 15px;
+
+
+/*background: #000428;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background:url("paisaje.jpeg");
+background-size:cover; /* Encajamos la imagen al 100% del ancho */
+background-repeat:no-repeat; /* Indicamos que no se repetira */
+
 }

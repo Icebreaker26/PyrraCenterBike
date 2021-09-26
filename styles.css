@@ -6,7 +6,6 @@ background-color:black;  /* fallback for old browsers */
 
 }
 
-
 /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-Telefonos y Computadores+-+-+-+-+-+-+-+-+-+--+-+*/
 /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+- BANNER-+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
 
@@ -227,6 +226,9 @@ background-image: url("images/pyrra team.png");
 background-size: cover;
 
 }
+
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+Computadores+-+-+-+-+-+-+-+-+-+--+-+*/
+
 @media(min-width:768px){
 #Team{
 
@@ -253,6 +255,8 @@ background-size: cover;
 }
 }
 
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+Computadores+-+-+-+-+-+-+-+-+-+--+-+*/
+@media(min-width:768px){
 
 #teamIn{
 
@@ -260,15 +264,35 @@ text-align:center;
 font-family: 'Permanent Marker', cursive;
 color: yellow;
 padding-bottom: 15px;
+height:20%;
+       font-size: 12px;
 
 background:url("images/paisaje.jpeg");
 background-size:cover; /* Encajamos la imagen al 100% del ancho */
 background-repeat:no-repeat; /* Indicamos que no se repetira */
-
-
-
-
 }
+}
+  /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-telefonos y tablets -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+  @media(max-width:768px){
+    #teamIn{
+
+      text-align:center;
+      font-family: 'Permanent Marker', cursive;
+      color: yellow;
+      padding-bottom: 15px;
+      height:20%;
+       font-size: 10px;
+      background:url("images/paisaje.jpeg");
+      background-size:cover; /* Encajamos la imagen al 100% del ancho */
+      background-repeat:no-repeat; /* Indicamos que no se repetira */
+      }
+      }
+
+
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+Computadores+-+-+-+-+-+-+-+-+-+--+-+*/
+@media(min-width:768px){
+
+
 #eventos{
 
   background:url("images/Dream team blur.jpg");
@@ -286,9 +310,10 @@ font-family: 'Permanent Marker', cursive;
 
 #eventoscon{
 
+
 text-align: center;
 
-width: 80%;
+width: 90%;
 display: grid;
 grid-template-columns: 33% 33% 33%;
 
@@ -303,6 +328,7 @@ margin: 0 auto;
   width: 80%;
   border: 2px dotted yellow;
   margin:0 auto;
+  
   text-align: center;
   padding-bottom: 3px;
   margin-bottom: 4%;
@@ -311,10 +337,66 @@ margin: 0 auto;
 #logos{
 
   width:70%;
-  height: 80%;
-  margin-top:2%;
+  height: 100%;
+  margin-top:0 auto;
+  }
+}
+  /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-telefonos y tablets -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+  @media(max-width:768px){
+
+
+  #eventos{
+
+    background:url("images/Dream team blur.jpg");
+    /*Foto en paralaje*/
+    background-repeat:no-repeat; /* Indicamos que no se repetira */
+    background-size:100%; /* Encajamos la imagen al 100% del ancho */
+    background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+    background-position:auto;
+    width: 100%;
+  
+    text-align:center;
+  color: yellow;
+  font-family: 'Permanent Marker', cursive;
+  }
+  
+  #eventoscon{
+  
+  text-align: center;
+  
+  width: 100%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  
+  
+  height: 100%;
+  margin: 0 auto;
+  
   
   }
+  #botones{
+  
+    width: 95%;
+    border: 2px dotted yellow;
+    margin:0 auto;
+    text-align: center;
+    padding-bottom: 3px;
+    margin-bottom: 4%;
+    
+  }
+
+  
+  #logos{
+  
+    width:100%;
+    height: 100%;
+    margin-top:2%;
+    
+    }
+  }
+
+
 
   #teamwork{
 

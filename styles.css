@@ -6,20 +6,81 @@ background-color:black;  /* fallback for old browsers */
 
 }
 
-/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-Telefonos y Computadores+-+-+-+-+-+-+-+-+-+--+-+*/
-/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+- BANNER-+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+/***********************INDEX******************************************/
 
-#banner{
-
-background-color: #0e1f33;
-box-shadow: -1px -1px 4px 4px teal;
-padding: 20px 20px 20px 20px;
-text-align: center;
-
-}
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+Computadores+-+-+-+-+-+-+-+-+-+--+-+*/
+      /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-BANNER TEAM FONDO-+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
 
 
-
+      @media(min-width:768px){
+        #Team{
+        
+          background:url("images/pyrra team.svg"); /* Nuestra imagen de fondo */
+          background-repeat:no-repeat; /* Indicamos que no se repetira */
+          background-size:100%; /* Encajamos la imagen al 100% del ancho */
+          background-position:auto;
+          width: 100%;
+          height: 2100px;
+        
+        }
+        /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+TELEFONOS+-+-+-+-+-+-+-+-+-+--+-+*/
+              /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-BANNER TEAM FONDO-+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+        
+        
+        }
+        
+        @media(max-width:768px){
+        
+          #Team{
+          background:url("images/pyrra team.svg"); /* Nuestra imagen de fondo */
+          background-repeat:no-repeat; /* Indicamos que no se repetira */
+          background-size:100%; /* Encajamos la imagen al 100% del ancho */
+          background-position:auto;
+          width: 100%;
+          height: 730px;
+        
+        }
+        }
+        
+        /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+Computadores+-+-+-+-+-+-+-+-+-+--+-+*/
+              /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-BANNER TEAM -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+        
+        @media(min-width:768px){
+        
+        #teamIn{
+        
+        text-align:center;
+        font-family: 'Permanent Marker', cursive;
+        color: yellow;
+        padding-bottom: 15px;
+        height:20%;
+               font-size: 12px;
+        
+        background:url("images/paisaje.jpeg");
+        background-size:cover; /* Encajamos la imagen al 100% del ancho */
+        background-repeat:no-repeat; /* Indicamos que no se repetira */
+        }
+        }
+          /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-telefonos y tablets -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+                /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-BANNER TEAM -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+        
+          @media(max-width:768px){
+            #teamIn{
+        
+              text-align:center;
+              font-family: 'Permanent Marker', cursive;
+              color: yellow;
+              padding-bottom: 15px;
+              height:20%;
+               font-size: 10px;
+              background:url("images/paisaje.jpeg");
+              background-size:cover; /* Encajamos la imagen al 100% del ancho */
+              background-repeat:no-repeat; /* Indicamos que no se repetira */
+              }
+              }
+        
+        
+        
 /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-telefonos y COMPUTADORES -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
 /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+- VER MAS -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
 
@@ -32,10 +93,118 @@ text-align: center;
   vertical-align: middle;
   width: 50%;
   box-shadow: -4px -4px teal;
-
- 
-
 }
+
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+Computadores+-+-+-+-+-+-+-+-+-+--+-+*/
+      /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-EVENTOS -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+      @media(min-width:768px){
+
+
+        #eventos{
+        
+          background:url("images/Dream team blur.jpg");
+          /*Foto en paralaje*/
+          background-repeat:no-repeat; /* Indicamos que no se repetira */
+          background-size:100%; /* Encajamos la imagen al 100% del ancho */
+          background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+          background-position:auto;
+          width: 100%;
+        
+          text-align:center;
+        color: yellow;
+        font-family: 'Permanent Marker', cursive;
+        }
+        
+        #eventoscon{
+        
+        
+        text-align: center;
+        
+        width: 90%;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        
+        
+        height: 100%;
+        margin: 0 auto;
+        
+        
+        }
+        #botones{
+        
+          width: 90%;
+          border: 2px dotted yellow;
+          margin:0 auto;
+          
+          text-align: center;
+          padding-bottom: 3px;
+          margin-bottom: 4%;
+        }
+        
+        #logos{
+        
+          width:70%;
+          height: 100%;
+          margin-top:0 auto;
+          }
+        }
+          /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-telefonos y tablets -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+              /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-EVENTOS -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+        
+          @media(max-width:768px){
+        
+        
+          #eventos{
+        
+            background:url("images/Dream team blur.jpg");
+            /*Foto en paralaje*/
+            background-repeat:no-repeat; /* Indicamos que no se repetira */
+            background-size:cover; /* Encajamos la imagen al 100% del ancho */
+            background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+            width: 100%;
+          
+            text-align:center;
+          color: yellow;
+          font-family: 'Permanent Marker', cursive;
+          }
+          
+          #eventoscon{
+          
+          text-align: center;
+          
+          width: 100%;
+          display: grid;
+          grid-template-columns: 33% 33% 33%;
+          
+          
+          height: 100%;
+          margin: 0 auto;
+          
+          
+          }
+          #botones{
+          
+            width: 95%;
+            border: 2px dotted yellow;
+            margin:0 auto;
+            text-align: center;
+            padding-bottom: 3px;
+            margin-bottom: 4%;
+            
+          }
+        
+          
+          #logos{
+          
+            width:100%;
+            height: 100%;
+            margin-top:2%;
+            
+            }
+          }
+        
+        
 
 
 
@@ -77,364 +246,28 @@ text-align: center;
 }
 }
 
-#footer{
+ /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-FOTOS PYRRA-+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
 
-background: url("images/fondo pag.png");
-bottom-fixed:true;
-width:100%;
-height:200px;
-background-color:black;
-font-size:90px;
 
-box-shadow: 4px 4px 4px teal;
+ #teamwork{
 
-color: white;
-text-align: center;
- vertical-align: middle;
-
-}
-
-#footerteam{
-
-
-  bottom-fixed;
-  width:100%;
-  height:200px;
-  background-color: yellow;
-  font-size:90px;
-
-  box-shadow: 4px 4px 4px teal;
-
-  color: white;
-  text-align: center;
-   vertical-align: middle;
-
-
-
-}
-
-.content-box {
-  column-count: 3;
-}
-
-
-#bodycontacto{
-
-background:url("images/fondo pag.png");
-background-size: 100%;
-
-}
-
-#h1contacto{
-
-color: yellow;
- font-family: 'Lobster', cursive;
- font-size:70px;
-text-align: center;
-
-}
-
-#mapa{
-
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
-.p{
-
-    font-family: 'Noto Sans', sans-serif;
-
-}
-.redes-container{
-    display: flex;
-    height: 18vh;
-    align-items: center;
-    justify-content: center;
-}
-
-.redes-container ul li{
-    display: inline-block;
-    margin: 0 5px;
-    width: 50px;
-    height: 50 px;
-    text-align: center;
-}
-
-.redes-container ul li a{
-    display: block;
-    padding: 0 10px;
-    background-color: #333;
-    color: white;
-    line-height: 50px;
-    font-size: 18px;
-    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 2);
-    transition: .2s;
-}
-
-.redes-container ul:hover a{
-    filter:blur(2px);
-}
-
-.redes-container ul li a:hover{
-    transform: translate(-3px) scale(1.05);
-    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 4);
-    filter: none;
-}
-
-.redes-container ul li .facebook:hover{
-    background-color: var(--facebook);
-}
-
-.redes-container ul li .instagram:hover{
-    background-color: var(--instagram);
-}
-
-.redes-container ul li .twitter:hover{
-    background-color: var(--twitter);
-}
-
-.redes-container ul li .pinterest:hover{
-    background-color: var(--pinterest);
-}
-
-.redes-container ul li .linkedin:hover{
-    background-color: var(--linkedin);
-}
-
-
-
-
-
-}
-
-#cs{
-
-
-color: white;
-font-size: 800%;
-margin-top: 17%;
-text-shadow: 2px 2px 3px blue;
-
-}
-#cuerpoteam{
-
-background-image: url("images/pyrra team.png");
-background-size: cover;
-
-}
-
-/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+Computadores+-+-+-+-+-+-+-+-+-+--+-+*/
-      /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-BANNER TEAM FONDO-+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
-
-
-@media(min-width:768px){
-#Team{
-
-  background:url("images/pyrra team.svg"); /* Nuestra imagen de fondo */
-  background-repeat:no-repeat; /* Indicamos que no se repetira */
-  background-size:100%; /* Encajamos la imagen al 100% del ancho */
-  background-position:auto;
-  width: 100%;
-  height: 2100px;
-
-}
-/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+TELEFONOS+-+-+-+-+-+-+-+-+-+--+-+*/
-      /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-BANNER TEAM FONDO-+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
-
-
-}
-
-@media(max-width:768px){
-
-  #Team{
-  background:url("images/pyrra team.svg"); /* Nuestra imagen de fondo */
-  background-repeat:no-repeat; /* Indicamos que no se repetira */
-  background-size:100%; /* Encajamos la imagen al 100% del ancho */
-  background-position:auto;
-  width: 100%;
-  height: 730px;
-
-}
-}
-
-/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+Computadores+-+-+-+-+-+-+-+-+-+--+-+*/
-      /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-BANNER TEAM -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
-
-@media(min-width:768px){
-
-#teamIn{
-
-text-align:center;
-font-family: 'Permanent Marker', cursive;
-color: yellow;
-padding-bottom: 15px;
-height:20%;
-       font-size: 12px;
-
-background:url("images/paisaje.jpeg");
-background-size:cover; /* Encajamos la imagen al 100% del ancho */
-background-repeat:no-repeat; /* Indicamos que no se repetira */
-}
-}
-  /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-telefonos y tablets -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
-        /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-BANNER TEAM -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
-
-  @media(max-width:768px){
-    #teamIn{
-
-      text-align:center;
-      font-family: 'Permanent Marker', cursive;
-      color: yellow;
-      padding-bottom: 15px;
-      height:20%;
-       font-size: 10px;
-      background:url("images/paisaje.jpeg");
-      background-size:cover; /* Encajamos la imagen al 100% del ancho */
-      background-repeat:no-repeat; /* Indicamos que no se repetira */
-      }
-      }
-
-
-/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+Computadores+-+-+-+-+-+-+-+-+-+--+-+*/
-      /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-EVENTOS -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
-
-@media(min-width:768px){
-
-
-#eventos{
-
-  background:url("images/Dream team blur.jpg");
-  /*Foto en paralaje*/
-	background-repeat:no-repeat; /* Indicamos que no se repetira */
-	background-size:100%; /* Encajamos la imagen al 100% del ancho */
-	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
-  background-position:auto;
-  width: 100%;
-
-  text-align:center;
-color: yellow;
-font-family: 'Permanent Marker', cursive;
-}
-
-#eventoscon{
-
-
-text-align: center;
-
-width: 90%;
-display: grid;
-grid-template-columns: 33% 33% 33%;
-
-
-height: 100%;
-margin: 0 auto;
-
-
-}
-#botones{
-
-  width: 90%;
-  border: 2px dotted yellow;
-  margin:0 auto;
-  
-  text-align: center;
-  padding-bottom: 3px;
-  margin-bottom: 4%;
-}
-
-#logos{
-
-  width:70%;
-  height: 100%;
-  margin-top:0 auto;
-  }
-}
-  /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-telefonos y tablets -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
-      /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-EVENTOS -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
-
-  @media(max-width:768px){
-
-
-  #eventos{
-
-    background:url("images/Dream team blur.jpg");
-    /*Foto en paralaje*/
-    background-repeat:no-repeat; /* Indicamos que no se repetira */
-    background-size:cover; /* Encajamos la imagen al 100% del ancho */
-    background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
-<<<<<<< HEAD
-    
-=======
->>>>>>> f41eb234bc5a586c6f057d52b9b3de3ba9d0c492
-    width: 100%;
-  
-    text-align:center;
-  color: yellow;
-  font-family: 'Permanent Marker', cursive;
-  }
-  
-  #eventoscon{
-  
-  text-align: center;
-  
+  background:url("images/pyrra team.png");
   width: 100%;
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-  
-  
-  height: 100%;
-  margin: 0 auto;
-  
-  
-  }
-  #botones{
-  
-    width: 95%;
-    border: 2px dotted yellow;
-    margin:0 auto;
-    text-align: center;
-    padding-bottom: 3px;
-    margin-bottom: 4%;
-    
-  }
+  grid-template-columns: 33% 34% 33%;
+}
 
-  
-  #logos{
-  
-    width:100%;
-    height: 100%;
-    margin-top:2%;
-    
-    }
-  }
+#teamworkimg{
 
-      /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-FOTOS PYRRA-+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+  width:100%;
+height: 100%;
 
+}
 
-  #teamwork{
-
-    background:url("images/pyrra team.png");
-    width: 100%;
-    display: grid;
-    grid-template-columns: 33% 34% 33%;
-  }
-
-  #teamworkimg{
-
-    width:100%;
-  height: 100%;
-
-  }
-
-
-  /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+Computadores+-+-+-+-+-+-+-+-+-+--+-+*/
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+Computadores+-+-+-+-+-+-+-+-+-+--+-+*/
  /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-PISTAS -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
 
-@media(min-width:768px){
+ @media(min-width:768px){
 
 
   #pistas{
@@ -542,16 +375,214 @@ margin: 0 auto;
       
       }
     } 
-     /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+PEDALEANDO SUEÑOS+-+-++-+-+--+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
 
-    #pedaleandosueños{
+
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+PEDALEANDO SUEÑOS+-+-++-+-+--+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+#pedaleandosueños{
       
-      background: url("images/Dream team blur.jpg");
-      width:100%;
-      height:60px;
-      text-align: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+  background: url("images/Dream team blur.jpg");
+  width:100%;
+  height:60px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+  background-position:auto;
+} 
 
-    }
+
+
+
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+FOOTER INDEX+-+-++-+-+--+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+
+#footer{
+
+  background: url("images/fondo pag.png");
+  bottom-fixed:true;
+  width:100%;
+  height:200px;
+  background-color:black;
+  font-size:90px;
+  
+  box-shadow: 4px 4px 4px teal;
+  
+  color: white;
+  text-align: center;
+   vertical-align: middle;
+
+}
+
+
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-++-+-++-+-+--+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+TEAM PAGE+-+-++-+-+--+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-++-+-++-+-+--+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+#cuerpoteam{
+
+  background-image: url("images/pyrra team.png");
+  background-size: cover;
+  
+  }
+  
+#footerteam{
+
+
+  bottom-fixed;
+  width:100%;
+  height:200px;
+  background-color: yellow;
+  font-size:90px;
+
+  box-shadow: 4px 4px 4px teal;
+
+  color: white;
+  text-align: center;
+   vertical-align: middle;
+
+
+
+}
+
+
+
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-++-+-++-+-+--+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+CONTACTO PAGE+-+-++-+-+--+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-++-+-++-+-+--+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+#bodycontacto{
+
+background:url("images/fondo pag.png");
+background-size: 100%;
+
+}
+
+#h1contacto{
+
+color: yellow;
+ font-family: 'Lobster', cursive;
+ font-size:70px;
+text-align: center;
+
+}
+
+#mapa{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.p{
+
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-++-+-++-+-+--+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+REDES SOCIALES CSS+-+-++-+-+--+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-++-+-++-+-+--+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+.redes-container{
+    display: flex;
+    height: 18vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-container ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50 px;
+    text-align: center;
+}
+
+.redes-container ul li a{
+    display: block;
+    padding: 0 10px;
+    background-color: #333;
+    color: white;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 2);
+    transition: .2s;
+}
+
+.redes-container ul:hover a{
+    filter:blur(2px);
+}
+
+.redes-container ul li a:hover{
+    transform: translate(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 4);
+    filter: none;
+}
+
+.redes-container ul li .facebook:hover{
+    background-color: var(--facebook);
+}
+
+.redes-container ul li .instagram:hover{
+    background-color: var(--instagram);
+}
+
+.redes-container ul li .twitter:hover{
+    background-color: var(--twitter);
+}
+
+.redes-container ul li .pinterest:hover{
+    background-color: var(--pinterest);
+}
+
+.redes-container ul li .linkedin:hover{
+    background-color: var(--linkedin);
+}
+
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-++-+-++-+-+--+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+CROSSCOUNTRY PAGE+-++-+-+--+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-++-+-++-+-+--+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+#crosscountry{
+  
+  text-align:center;
+  color: yellow;
+  font-family: 'Permanent Marker', cursive;
+
+}
+
+#crosscountryraw{
+
+  text-align: center;
+  justify-content: center;
+
+  
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 45%;
+
+}
+
+
+
+
+
+
+     
+
+
+  
+     

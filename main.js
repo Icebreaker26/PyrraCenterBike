@@ -1,3 +1,5 @@
+
+
 (document).ready(function() {
     ('a[href^="#"]').click(function() {
       var destino = $(this.hash); //this.hash lee el atributo href de este
@@ -5,4 +7,3 @@
       return false;
     });
   });
-

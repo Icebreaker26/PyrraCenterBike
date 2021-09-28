@@ -569,6 +569,10 @@ text-align: center;
 
 }
 
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+Computadores+-+-+-+-+-+-+-+-+-+--+-+*/
+ /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+- -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+ @media(min-width:768px){
+
 #crosscountryraw{
 
   text-align: center;
@@ -595,4 +599,38 @@ width: 100%;
 
   width: 100%;
   height: 100%;
+}
+}
+
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-telefonos y tablets -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-  -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+
+@media(max-width:768px){
+
+  #crosscountryraw{
+
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+
+    width: 100%;
+
+
+        font-family: 'Stick No Bills', sans-serif;
+        font-size: 20px;
+        color: white;
+  }
+
+  #XCOtrazado{
+
+  width: 100%;
+    vertical-align: middle;
+  }
+
+  #XCOimg{
+
+    width: 100%;
+  }
+
 }

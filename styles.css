@@ -553,5 +553,7 @@ margin: 0 auto;
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+	      background-position:auto;
+
 
     }

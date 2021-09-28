@@ -366,7 +366,10 @@ margin: 0 auto;
     background-repeat:no-repeat; /* Indicamos que no se repetira */
     background-size:cover; /* Encajamos la imagen al 100% del ancho */
     background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+<<<<<<< HEAD
     
+=======
+>>>>>>> f41eb234bc5a586c6f057d52b9b3de3ba9d0c492
     width: 100%;
   
     text-align:center;

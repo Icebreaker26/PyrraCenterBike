@@ -228,6 +228,8 @@ background-size: cover;
 }
 
 /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+Computadores+-+-+-+-+-+-+-+-+-+--+-+*/
+      /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-BANNER TEAM FONDO-+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
 
 @media(min-width:768px){
 #Team{
@@ -240,6 +242,10 @@ background-size: cover;
   height: 2100px;
 
 }
+/*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+TELEFONOS+-+-+-+-+-+-+-+-+-+--+-+*/
+      /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-BANNER TEAM FONDO-+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+
 }
 
 @media(max-width:768px){
@@ -256,6 +262,8 @@ background-size: cover;
 }
 
 /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+Computadores+-+-+-+-+-+-+-+-+-+--+-+*/
+      /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-BANNER TEAM -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
 @media(min-width:768px){
 
 #teamIn{
@@ -273,6 +281,8 @@ background-repeat:no-repeat; /* Indicamos que no se repetira */
 }
 }
   /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-telefonos y tablets -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+        /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-BANNER TEAM -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
   @media(max-width:768px){
     #teamIn{
 
@@ -290,6 +300,8 @@ background-repeat:no-repeat; /* Indicamos que no se repetira */
 
 
 /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+Computadores+-+-+-+-+-+-+-+-+-+--+-+*/
+      /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-EVENTOS -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
 @media(min-width:768px){
 
 
@@ -342,6 +354,7 @@ margin: 0 auto;
   }
 }
   /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-telefonos y tablets -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+      /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-EVENTOS -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
 
   @media(max-width:768px){
 
@@ -353,7 +366,7 @@ margin: 0 auto;
     background-repeat:no-repeat; /* Indicamos que no se repetira */
     background-size:cover; /* Encajamos la imagen al 100% del ancho */
     background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
-    background-position:auto;
+    
     width: 100%;
   
     text-align:center;
@@ -396,6 +409,7 @@ margin: 0 auto;
     }
   }
 
+      /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-FOTOS PYRRA-+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
 
 
   #teamwork{
@@ -412,3 +426,129 @@ margin: 0 auto;
   height: 100%;
 
   }
+
+
+  /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+Computadores+-+-+-+-+-+-+-+-+-+--+-+*/
+ /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-PISTAS -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+@media(min-width:768px){
+
+
+  #pistas{
+  
+    background:url("images/Dream team blur.jpg");
+    /*Foto en paralaje*/
+    background-repeat:no-repeat; /* Indicamos que no se repetira */
+    background-size:100%; /* Encajamos la imagen al 100% del ancho */
+    background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+    background-position:auto;
+    width: 100%;
+  
+    text-align:center;
+    color: yellow;
+    font-family: 'Permanent Marker', cursive;
+  
+  }
+  
+  #pistascon{
+  
+  
+  text-align: center; 
+  justify-content: center;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  height: 100%;
+  margin: auto;
+  
+  
+  
+  }
+  #pistabotones{
+  
+    width: 90%;
+    border: 2px dotted yellow;
+    margin: 0 auto;
+    
+    text-align: center;
+    padding-bottom: 3px;
+    margin-bottom: 4%;
+  }
+  
+  #logos{
+  
+    width:70%;
+    height: 100%;
+    margin-top:0 auto;
+    }
+  }
+    /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-telefonos y tablets -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+      /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-PISTAS -+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+    @media(max-width:768px){
+  
+  
+    #pistas{
+  
+      background:url("images/Dream team blur.jpg");
+      /*Foto en paralaje*/
+      background-repeat:no-repeat; /* Indicamos que no se repetira */
+      background-size:cover; /* Encajamos la imagen al 100% del ancho */
+      background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+      
+      width: 100%;
+    
+      text-align:center;
+    color: yellow;
+    font-family: 'Permanent Marker', cursive;
+    }
+    
+    #pistascon{
+    
+    text-align: center;
+    justify-content: center;
+
+    
+    width: 100%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    
+    
+    height: 100%;
+    margin: 0 auto;
+    
+    
+    }
+    #pistabotones{
+    
+      width: 95%;
+      border: 2px dotted yellow;
+      margin:0 auto;
+      text-align: center;
+      padding-bottom: 3px;
+      margin-bottom: 4%;
+      
+    }
+  
+    
+    #logos{
+    
+      width:100%;
+      height: 100%;
+      margin-top:2%;
+      
+      }
+    } 
+     /*-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+PEDALEANDO SUEÑOS+-+-++-+-+--+-+--++-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+    #pedaleandosueños{
+      
+      background: url("images/Dream team blur.jpg");
+      width:100%;
+      height:60px;
+      text-align: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+
+    }
